@@ -1,0 +1,88 @@
+{
+  "media": [
+    {
+      "file": "results/coarse/animation.gif",
+      "bytes": 2351853,
+      "width": 1000,
+      "height": 580,
+      "frames": 21,
+      "loop": 0,
+      "duration_ms": 2400,
+      "playback_check": "All frames decoded; initial/final differ; timing and loop verified"
+    },
+    {
+      "file": "results/coarse/pressure.png",
+      "bytes": 95806,
+      "width": 1700,
+      "height": 986
+    },
+    {
+      "file": "results/coarse/temperature.png",
+      "bytes": 107793,
+      "width": 1700,
+      "height": 986
+    },
+    {
+      "file": "results/fine/animation.gif",
+      "bytes": 2501610,
+      "width": 1000,
+      "height": 580,
+      "frames": 21,
+      "loop": 0,
+      "duration_ms": 2400,
+      "playback_check": "All frames decoded; initial/final differ; timing and loop verified"
+    },
+    {
+      "file": "results/fine/pressure.png",
+      "bytes": 128313,
+      "width": 1700,
+      "height": 986
+    },
+    {
+      "file": "results/fine/temperature.png",
+      "bytes": 146429,
+      "width": 1700,
+      "height": 986
+    },
+    {
+      "file": "results/line_location.png",
+      "bytes": 118923,
+      "width": 1500,
+      "height": 870
+    },
+    {
+      "file": "results/line_pressure.png",
+      "bytes": 61817,
+      "width": 1530,
+      "height": 850
+    },
+    {
+      "file": "results/line_temperature.png",
+      "bytes": 63921,
+      "width": 1530,
+      "height": 850
+    },
+    {
+      "file": "results/mesh_comparison.png",
+      "bytes": 1283543,
+      "width": 2240,
+      "height": 800
+    },
+    {
+      "file": "results/settling.png",
+      "bytes": 92001,
+      "width": 1650,
+      "height": 600
+    }
+  ],
+  "source_files_unchanged": 858,
+  "case_dictionaries_identical_to_sources": true,
+  "markdown_links_checked": true,
+  "symlinks": 0,
+  "new_solver_runs": 0,
+  "mesh_generation": "Both regenerated meshes match original points/faces/owner/neighbour arrays",
+  "decomposePar": "Four-way scotch decomposition tested on a disposable fresh fine case",
+  "paraview_automation": "Syntax checked only; missing Python package and inaccessible display prevent execution",
+  "git": "Initialized main branch, files untracked, no commits, no remotes",
+  "proposed_remote": "Mayahi77/Hypersonic-CFD-OpenFOAM"
+}

@@ -1,0 +1,437 @@
+{
+  "identical_case_inputs": {
+    "0/U": true,
+    "0/p": true,
+    "0/T": true,
+    "constant/thermophysicalProperties": true,
+    "constant/turbulenceProperties": true,
+    "system/controlDict": true,
+    "system/fvSchemes": true,
+    "system/fvSolution": true
+  },
+  "coarse": {
+    "solver_log": "log.rhoCentralFoam",
+    "nProcs": 1,
+    "timestep_reports": 14501,
+    "final_logged_time": 0.01,
+    "maximum_logged_Co": 0.20911,
+    "normal_End_marker": true,
+    "warning_or_error_lines": []
+  },
+  "fine": {
+    "solver_log": "log.parallel",
+    "nProcs": 4,
+    "timestep_reports": 47543,
+    "final_logged_time": 0.01,
+    "maximum_logged_Co": 0.200016,
+    "normal_End_marker": true,
+    "warning_or_error_lines": []
+  },
+  "reconstruction": {
+    "all_cells_covered_once": true,
+    "checked_field_snapshots": 80,
+    "maximum_absolute_difference": 0.0,
+    "checks": [
+      {
+        "time": 0.0005,
+        "field": "p",
+        "max_abs_difference": 0.0
+      },
+      {
+        "time": 0.0005,
+        "field": "T",
+        "max_abs_difference": 0.0
+      },
+      {
+        "time": 0.0005,
+        "field": "rho",
+        "max_abs_difference": 0.0
+      },
+      {
+        "time": 0.0005,
+        "field": "U",
+        "max_abs_difference": 0.0
+      },
+      {
+        "time": 0.001,
+        "field": "p",
+        "max_abs_difference": 0.0
+      },
+      {
+        "time": 0.001,
+        "field": "T",
+        "max_abs_difference": 0.0
+      },
+      {
+        "time": 0.001,
+        "field": "rho",
+        "max_abs_difference": 0.0
+      },
+      {
+        "time": 0.001,
+        "field": "U",
+        "max_abs_difference": 0.0
+      },
+      {
+        "time": 0.0015,
+        "field": "p",
+        "max_abs_difference": 0.0
+      },
+      {
+        "time": 0.0015,
+        "field": "T",
+        "max_abs_difference": 0.0
+      },
+      {
+        "time": 0.0015,
+        "field": "rho",
+        "max_abs_difference": 0.0
+      },
+      {
+        "time": 0.0015,
+        "field": "U",
+        "max_abs_difference": 0.0
+      },
+      {
+        "time": 0.002,
+        "field": "p",
+        "max_abs_difference": 0.0
+      },
+      {
+        "time": 0.002,
+        "field": "T",
+        "max_abs_difference": 0.0
+      },
+      {
+        "time": 0.002,
+        "field": "rho",
+        "max_abs_difference": 0.0
+      },
+      {
+        "time": 0.002,
+        "field": "U",
+        "max_abs_difference": 0.0
+      },
+      {
+        "time": 0.0025,
+        "field": "p",
+        "max_abs_difference": 0.0
+      },
+      {
+        "time": 0.0025,
+        "field": "T",
+        "max_abs_difference": 0.0
+      },
+      {
+        "time": 0.0025,
+        "field": "rho",
+        "max_abs_difference": 0.0
+      },
+      {
+        "time": 0.0025,
+        "field": "U",
+        "max_abs_difference": 0.0
+      },
+      {
+        "time": 0.003,
+        "field": "p",
+        "max_abs_difference": 0.0
+      },
+      {
+        "time": 0.003,
+        "field": "T",
+        "max_abs_difference": 0.0
+      },
+      {
+        "time": 0.003,
+        "field": "rho",
+        "max_abs_difference": 0.0
+      },
+      {
+        "time": 0.003,
+        "field": "U",
+        "max_abs_difference": 0.0
+      },
+      {
+        "time": 0.0035,
+        "field": "p",
+        "max_abs_difference": 0.0
+      },
+      {
+        "time": 0.0035,
+        "field": "T",
+        "max_abs_difference": 0.0
+      },
+      {
+        "time": 0.0035,
+        "field": "rho",
+        "max_abs_difference": 0.0
+      },
+      {
+        "time": 0.0035,
+        "field": "U",
+        "max_abs_difference": 0.0
+      },
+      {
+        "time": 0.004,
+        "field": "p",
+        "max_abs_difference": 0.0
+      },
+      {
+        "time": 0.004,
+        "field": "T",
+        "max_abs_difference": 0.0
+      },
+      {
+        "time": 0.004,
+        "field": "rho",
+        "max_abs_difference": 0.0
+      },
+      {
+        "time": 0.004,
+        "field": "U",
+        "max_abs_difference": 0.0
+      },
+      {
+        "time": 0.0045,
+        "field": "p",
+        "max_abs_difference": 0.0
+      },
+      {
+        "time": 0.0045,
+        "field": "T",
+        "max_abs_difference": 0.0
+      },
+      {
+        "time": 0.0045,
+        "field": "rho",
+        "max_abs_difference": 0.0
+      },
+      {
+        "time": 0.0045,
+        "field": "U",
+        "max_abs_difference": 0.0
+      },
+      {
+        "time": 0.005,
+        "field": "p",
+        "max_abs_difference": 0.0
+      },
+      {
+        "time": 0.005,
+        "field": "T",
+        "max_abs_difference": 0.0
+      },
+      {
+        "time": 0.005,
+        "field": "rho",
+        "max_abs_difference": 0.0
+      },
+      {
+        "time": 0.005,
+        "field": "U",
+        "max_abs_difference": 0.0
+      },
+      {
+        "time": 0.0055,
+        "field": "p",
+        "max_abs_difference": 0.0
+      },
+      {
+        "time": 0.0055,
+        "field": "T",
+        "max_abs_difference": 0.0
+      },
+      {
+        "time": 0.0055,
+        "field": "rho",
+        "max_abs_difference": 0.0
+      },
+      {
+        "time": 0.0055,
+        "field": "U",
+        "max_abs_difference": 0.0
+      },
+      {
+        "time": 0.006,
+        "field": "p",
+        "max_abs_difference": 0.0
+      },
+      {
+        "time": 0.006,
+        "field": "T",
+        "max_abs_difference": 0.0
+      },
+      {
+        "time": 0.006,
+        "field": "rho",
+        "max_abs_difference": 0.0
+      },
+      {
+        "time": 0.006,
+        "field": "U",
+        "max_abs_difference": 0.0
+      },
+      {
+        "time": 0.0065,
+        "field": "p",
+        "max_abs_difference": 0.0
+      },
+      {
+        "time": 0.0065,
+        "field": "T",
+        "max_abs_difference": 0.0
+      },
+      {
+        "time": 0.0065,
+        "field": "rho",
+        "max_abs_difference": 0.0
+      },
+      {
+        "time": 0.0065,
+        "field": "U",
+        "max_abs_difference": 0.0
+      },
+      {
+        "time": 0.007,
+        "field": "p",
+        "max_abs_difference": 0.0
+      },
+      {
+        "time": 0.007,
+        "field": "T",
+        "max_abs_difference": 0.0
+      },
+      {
+        "time": 0.007,
+        "field": "rho",
+        "max_abs_difference": 0.0
+      },
+      {
+        "time": 0.007,
+        "field": "U",
+        "max_abs_difference": 0.0
+      },
+      {
+        "time": 0.0075,
+        "field": "p",
+        "max_abs_difference": 0.0
+      },
+      {
+        "time": 0.0075,
+        "field": "T",
+        "max_abs_difference": 0.0
+      },
+      {
+        "time": 0.0075,
+        "field": "rho",
+        "max_abs_difference": 0.0
+      },
+      {
+        "time": 0.0075,
+        "field": "U",
+        "max_abs_difference": 0.0
+      },
+      {
+        "time": 0.008,
+        "field": "p",
+        "max_abs_difference": 0.0
+      },
+      {
+        "time": 0.008,
+        "field": "T",
+        "max_abs_difference": 0.0
+      },
+      {
+        "time": 0.008,
+        "field": "rho",
+        "max_abs_difference": 0.0
+      },
+      {
+        "time": 0.008,
+        "field": "U",
+        "max_abs_difference": 0.0
+      },
+      {
+        "time": 0.0085,
+        "field": "p",
+        "max_abs_difference": 0.0
+      },
+      {
+        "time": 0.0085,
+        "field": "T",
+        "max_abs_difference": 0.0
+      },
+      {
+        "time": 0.0085,
+        "field": "rho",
+        "max_abs_difference": 0.0
+      },
+      {
+        "time": 0.0085,
+        "field": "U",
+        "max_abs_difference": 0.0
+      },
+      {
+        "time": 0.009,
+        "field": "p",
+        "max_abs_difference": 0.0
+      },
+      {
+        "time": 0.009,
+        "field": "T",
+        "max_abs_difference": 0.0
+      },
+      {
+        "time": 0.009,
+        "field": "rho",
+        "max_abs_difference": 0.0
+      },
+      {
+        "time": 0.009,
+        "field": "U",
+        "max_abs_difference": 0.0
+      },
+      {
+        "time": 0.0095,
+        "field": "p",
+        "max_abs_difference": 0.0
+      },
+      {
+        "time": 0.0095,
+        "field": "T",
+        "max_abs_difference": 0.0
+      },
+      {
+        "time": 0.0095,
+        "field": "rho",
+        "max_abs_difference": 0.0
+      },
+      {
+        "time": 0.0095,
+        "field": "U",
+        "max_abs_difference": 0.0
+      },
+      {
+        "time": 0.01,
+        "field": "p",
+        "max_abs_difference": 0.0
+      },
+      {
+        "time": 0.01,
+        "field": "T",
+        "max_abs_difference": 0.0
+      },
+      {
+        "time": 0.01,
+        "field": "rho",
+        "max_abs_difference": 0.0
+      },
+      {
+        "time": 0.01,
+        "field": "U",
+        "max_abs_difference": 0.0
+      }
+    ]
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "point_1_m": [
+    -1,
+    0.375,
+    0
+  ],
+  "point_2_m": [
+    0,
+    0.375,
+    0
+  ],
+  "time_s": 0.01,
+  "samples": 501,
+  "method": "OpenFOAM v1706 sampledSets, uniform, cellPoint interpolation",
+  "endpoint_note": "P2 is on the front annular wall. It is a boundary limit, not a fluid point inside the solid.",
+  "pressure_units": "Pa",
+  "temperature_units": "K"
+}

@@ -1,0 +1,35 @@
+# Reproducible OpenFOAM products
+cases/*/constant/polyMesh/
+cases/*/processor*/
+cases/*/[0-9]*/
+!cases/*/0/
+!cases/*/0/**
+**/postProcessing/
+**/VTK/
+**/dynamicCode/
+**/log*
+**/*.msh
+**/mesh-input.geo
+**/*.foam
+**/*.OpenFOAM
+**/*.orig
+**/*~
+# Only final, selected media belong in Git
+**/frames/
+*.avi
+*.mp4
+*.mov
+*.pvtu
+*.vtu
+*.vtk
+# Local caches and private configuration
+__pycache__/
+*.py[cod]
+.venv/
+.cache/
+.DS_Store
+.env
+.env.*
+.aws/
+.codex/
+.agents/
