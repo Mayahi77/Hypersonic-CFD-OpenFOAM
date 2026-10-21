@@ -1,6 +1,6 @@
 # Mach 5 flow around a hollow cylinder
 
-This project demonstrates my OpenFOAM workflow for Mach 5 flow around an open hollow cylinder: building geometry in Gmsh, generating and checking an axisymmetric wedge mesh, configuring a compressible case, running serial and MPI calculations, and comparing saved results. It is a student CFD portfolio for research-assistant applications. It is not a reproduction of Scanlon et al. (2015), a mesh-independence study, or an experimentally validated prediction.
+This project demonstrates my OpenFOAM workflow for Mach 5 flow around an open hollow cylinder: building geometry in Gmsh, generating and checking an axisymmetric wedge mesh, configuring a compressible case, running serial and MPI calculations, and comparing saved results.
 
 ## Setup and tools
 
