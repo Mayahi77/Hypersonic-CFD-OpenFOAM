@@ -34,7 +34,7 @@ The coarse geometry uses a nominal 0.1 m point size. The fine geometry combines 
 | Cylinder wall and lips | −0.05 to 1.05 | 0.20 to 0.55 | Add cells around both lips, the bore, and the outer wall where compression, expansion, and velocity/temperature changes occur |
 | Upstream shock region | −0.45 to −0.05 | 0.10 to 1.00 | Concentrate cells ahead of the leading annular face to reduce shock smearing and examine sensitivity of its position |
 
-Both boxes span z = −0.1 to 0.1 m. This is local size refinement, with no dedicated wall-normal boundary-layer stack. Much of the downstream wake remains relatively coarse. The historical Gmsh 4.4.1 run ignored three newer mesh-option names in the fine file; the meshing script explicitly preserves that effective behavior. Details are in [the audit](docs/AUDIT.md).
+Both boxes span z = −0.1 to 0.1 m. This is local size refinement, with no dedicated wall-normal boundary-layer stack. Much of the downstream wake remains relatively coarse. The historical Gmsh 4.4.1 run ignored three newer mesh-option names in the fine file; the meshing script explicitly preserves that effective behavior.
 
 | Verified original mesh | Coarse | Fine |
 |---|---:|---:|
@@ -47,7 +47,7 @@ Both boxes span z = −0.1 to 0.1 m. This is local size refinement, with no dedi
 
 ## Results and comparison
 
-Both runs reached 0.01 s and ended normally. Between 0.0095 and 0.01 s, volume-weighted pressure changes are 0.146% and 0.155% for coarse and fine; temperature changes are 0.0382% and 0.0476%. These indicate reduced changes in saved snapshots, not a proof of full convergence. Final internal-cell temperature maxima are 2004.95 K and 1851.53 K. The [audit data](results/audit.json) contain all saved-time checks.
+Both runs reached 0.01 s and ended normally. Between 0.0095 and 0.01 s, volume-weighted pressure changes are 0.146% and 0.155% for coarse and fine; temperature changes are 0.0382% and 0.0476%. These indicate reduced changes in saved snapshots, not a proof of full convergence. Final internal-cell temperature maxima are 2004.95 K and 1851.53 K.
 
 Pressure and temperature have been sampled at **501 identical points from (−1, 0.375, 0) to (0, 0.375, 0), at t = 0.01 s**. The second endpoint lies on the front annular wall. Download the [coarse CSV](results/coarse/line.csv) and [fine CSV](results/fine/line.csv); columns include coordinates, pressure in Pa, and temperature in K. Extraction uses OpenFOAM `cellPoint` interpolation. Spatial interpolation does not add CFD resolution.
 
@@ -100,8 +100,4 @@ python3 scripts/sample_lines.py /path/to/coarse-results /path/to/fine-results
 python3 scripts/render_results.py /path/to/coarse-results /path/to/fine-results
 ```
 
-`sample_lines.py` works on temporary copies and invokes only `postProcess`. [Audit notes](docs/AUDIT.md) cover reconstruction verification and the limits of these checks.
-
-## Limits
-
-Two locally refined meshes demonstrate mesh sensitivity, not mesh independence. No experiment, benchmark, systematic grid sequence, timestep study, or transition/turbulence study establishes quantitative accuracy. First-order reconstruction smears sharp changes; wall and wake resolution remain limited. Constant heat capacity and a single-temperature perfect gas simplify hypersonic thermodynamics. Adiabatic walls do not provide a prediction of heat load into a cooled body. The computed temperature peaks and unresolved sensitivities require further investigation before quantitative aerodynamic or thermal use.
+`sample_lines.py` works on temporary copies and invokes only `postProcess`.
